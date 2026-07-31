@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "local-gemma": {
+      "baseUrl": "<GEMMA_ENDPOINT_URL>/v1",
+      "api": "openai-completions",
+      "apiKey": "<GEMMA_API_KEY>",
+      "models": [
+        { "id": "gemma-4-31B-it" }
+      ]
+    },
+    "local-qwen": {
+      "baseUrl": "<QWEN_ENDPOINT_URL>/v1",
+      "api": "openai-completions",
+      "apiKey": "<QWEN_API_KEY>",
+      "models": [
+        { "id": "qwen3.6-27b-nvfp4" }
+      ]
+    }
+  }
+}

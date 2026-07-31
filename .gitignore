@@ -1,0 +1,8 @@
+# Private credentials & runtime data
+auth.json
+mcp.json
+sessions/
+bin/
+git/
+.DS_Store
+*.log

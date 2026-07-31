@@ -1,0 +1,45 @@
+{
+  "lastChangelogVersion": "0.79.1",
+  "packages": [
+    "https://github.com/gsanhueza/pi-token-speed",
+    "https://github.com/QuintinShaw/pi-dynamic-workflows",
+    "https://github.com/mattpocock/skills",
+    "npm:pi-agent-browser-native",
+    "npm:pi-mcp-adapter",
+    "npm:pi-web-access"
+  ],
+  "extensions": [
+    "extensions/stealth-git-guard.ts",
+    "extensions/frontend-workflow.ts",
+    "extensions/component-intelligence.ts",
+    "extensions/session-lifecycle.ts",
+    "extensions/tdd-enforcer.ts"
+  ],
+  "skills": [
+    "skills/react-developer",
+    "skills/typescript-expert",
+    "skills/stealth-git",
+    "skills/react-testing-linting",
+    "skills/tdd-refactoring-workflow",
+    "skills/react-code-smells-fixer",
+    "skills/dynamic-workflows",
+    "skills/mattpocock-tdd",
+    "skills/mattpocock-diagnose",
+    "skills/mattpocock-grill-with-docs",
+    "skills/mattpocock-improve-architecture",
+    "skills/mattpocock-caveman",
+    "skills/mattpocock-setup",
+    "skills/radix-ui",
+    "skills/styled-components",
+    "skills/radix-styled-design-system",
+    "skills/e2e-testing-edge",
+    "skills/dotnet-backend",
+    "skills/mssql-database"
+  ],
+  "tokenSpeed": {
+    "display": "full"
+  },
+  "stealthMode": true,
+  "autoCommit": false,
+  "workflow": "tdd-refactoring"
+}

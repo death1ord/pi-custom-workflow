@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mssql-database": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@microsoft/mcp-server-mssql",
+        "--connection-string",
+        "Server=localhost;Database=DevDb;User Id=sa;Password=<YOUR_PASSWORD>;TrustServerCertificate=True;"
+      ]
+    }
+  }
+}
