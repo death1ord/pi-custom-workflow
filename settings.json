@@ -34,7 +34,8 @@
     "skills/radix-styled-design-system",
     "skills/e2e-testing-edge",
     "skills/dotnet-backend",
-    "skills/mssql-database"
+    "skills/mssql-database",
+    "skills/superpowers"
   ],
   "tokenSpeed": {
     "display": "full"
