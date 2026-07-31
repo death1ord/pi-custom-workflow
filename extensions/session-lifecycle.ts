@@ -10,8 +10,8 @@ export default function (pi: ExtensionAPI) {
   // ─────────────────────────────────────────────────────────
   // On session start — auto-detect project context
   // ─────────────────────────────────────────────────────────
-  pi.on("session_start", () => {
-    pi.agent.message(`## Auto-Detected Project Context
+  pi.on("session_start", (event, ctx) => {
+    ctx.agent.message(`## Auto-Detected Project Context
 
 On session start, silently read and internalize the following (do NOT print a verbose dump):
 
@@ -45,8 +45,8 @@ REMINDER: You are in STEALTH MODE. Never commit, never push, never add AI attrib
   // ─────────────────────────────────────────────────────────
   // On agent turn end — post-edit quality gate
   // ─────────────────────────────────────────────────────────
-  pi.on("agent_end", () => {
-    pi.agent.message(`## Post-Edit Quality Gate
+  pi.on("agent_end", (event, ctx) => {
+    ctx.agent.message(`## Post-Edit Quality Gate
 
 After completing any code modification, silently verify:
 
