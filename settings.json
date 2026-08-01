@@ -6,15 +6,15 @@
     "npm:pi-agent-browser-native",
     "npm:pi-mcp-adapter",
     "npm:pi-web-access",
-    "npm:pi-lens"
+    "npm:pi-lens",
+    "npm:pi-local-rag"
   ],
   "extensions": [
     "extensions/stealth-git-guard.ts",
     "extensions/frontend-workflow.ts",
     "extensions/component-intelligence.ts",
     "extensions/session-lifecycle.ts",
-    "extensions/tdd-enforcer.ts",
-    "extensions/memory-manager.ts"
+    "extensions/tdd-enforcer.ts"
   ],
   "skills": [
     "skills/react-developer",
