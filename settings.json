@@ -13,7 +13,8 @@
     "extensions/frontend-workflow.ts",
     "extensions/component-intelligence.ts",
     "extensions/session-lifecycle.ts",
-    "extensions/tdd-enforcer.ts"
+    "extensions/tdd-enforcer.ts",
+    "extensions/memory-manager.ts"
   ],
   "skills": [
     "skills/react-developer",
