@@ -47,9 +47,8 @@ fi
 # 5. Install Pi packages
 echo "[5/5] Installing Pi packages..."
 packages=(
-  "https://github.com/gsanhueza/pi-token-speed"
-  "https://github.com/QuintinShaw/pi-dynamic-workflows"
-  "https://github.com/mattpocock/skills"
+  "npm:pi-token-speed"
+  "npm:@quintinshaw/pi-dynamic-workflows"
   "npm:pi-agent-browser-native"
   "npm:pi-mcp-adapter"
   "npm:pi-web-access"
