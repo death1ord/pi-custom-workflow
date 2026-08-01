@@ -6,7 +6,8 @@
     "https://github.com/mattpocock/skills",
     "npm:pi-agent-browser-native",
     "npm:pi-mcp-adapter",
-    "npm:pi-web-access"
+    "npm:pi-web-access",
+    "npm:pi-lens"
   ],
   "extensions": [
     "extensions/stealth-git-guard.ts",

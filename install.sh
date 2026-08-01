@@ -53,6 +53,7 @@ packages=(
   "npm:pi-agent-browser-native"
   "npm:pi-mcp-adapter"
   "npm:pi-web-access"
+  "npm:pi-lens"
 )
 for pkg in "${packages[@]}"; do
   echo "  Installing $pkg ..."
