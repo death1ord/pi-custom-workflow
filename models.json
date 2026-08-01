@@ -5,7 +5,13 @@
       "api": "openai-completions",
       "apiKey": "<GEMMA_API_KEY>",
       "models": [
-        { "id": "gemma-4-31B-it" }
+        {
+          "id": "gemma-4-31B-it",
+          "contextWindow": 128000,
+          "maxOutputTokens": 8192,
+          "input": ["text", "image"],
+          "reasoning": true
+        }
       ]
     },
     "local-qwen": {
@@ -13,7 +19,13 @@
       "api": "openai-completions",
       "apiKey": "<QWEN_API_KEY>",
       "models": [
-        { "id": "qwen3.6-27b-nvfp4" }
+        {
+          "id": "qwen3.6-27b-nvfp4",
+          "contextWindow": 256000,
+          "maxOutputTokens": 32000,
+          "input": ["text", "image"],
+          "reasoning": true
+        }
       ]
     }
   }
