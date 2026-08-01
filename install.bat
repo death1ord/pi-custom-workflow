@@ -23,7 +23,7 @@ if not exist "%TARGET%\skills" mkdir "%TARGET%\skills"
 
 REM 2. Copy core config files
 echo [2/5] Copying configuration files...
-for %%F in (SYSTEM.md AGENTS.md settings.json models.json models.json.example mcp.json mcp.json.example .gitignore) do (
+for %%F in (SYSTEM.md AGENTS.md settings.json models.json.example mcp.json.example .gitignore) do (
     if exist "%SOURCE%%%F" (
         copy /Y "%SOURCE%%%F" "%TARGET%\%%F" >nul 2>&1
         echo   Copied %%F

@@ -21,7 +21,7 @@ mkdir -p "$TARGET/extensions" "$TARGET/skills"
 
 # 2. Copy core config files
 echo "[2/5] Copying configuration files..."
-for file in SYSTEM.md AGENTS.md settings.json models.json models.json.example mcp.json mcp.json.example .gitignore; do
+for file in SYSTEM.md AGENTS.md settings.json models.json.example mcp.json.example .gitignore; do
   if [ -f "$SOURCE/$file" ]; then
     cp -f "$SOURCE/$file" "$TARGET/$file"
     echo "  Copied $file"
