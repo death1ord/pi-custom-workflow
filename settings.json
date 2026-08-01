@@ -7,7 +7,8 @@
     "npm:pi-mcp-adapter",
     "npm:pi-web-access",
     "npm:pi-lens",
-    "npm:pi-local-rag"
+    "npm:pi-local-rag",
+    "npm:@vigolium/piolium"
   ],
   "extensions": [
     "extensions/stealth-git-guard.ts",

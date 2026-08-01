@@ -54,6 +54,7 @@ packages=(
   "npm:pi-web-access"
   "npm:pi-lens"
   "npm:pi-local-rag"
+  "npm:@vigolium/piolium"
 )
 for pkg in "${packages[@]}"; do
   echo "  Installing $pkg ..."
