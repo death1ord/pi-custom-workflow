@@ -53,7 +53,7 @@ packages=(
   "npm:pi-mcp-adapter"
   "npm:pi-web-access"
   "npm:pi-lens"
-  "npm:pi-local-rag"
+  "npm:pi-memctx"
   "npm:@vigolium/piolium"
 )
 for pkg in "${packages[@]}"; do
